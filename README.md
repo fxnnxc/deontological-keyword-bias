@@ -30,7 +30,7 @@ This paper investigates a systematic bias in large language models (LLMs) where 
 Large language models (LLMs) systematically interpret sentences with modal expressions (like *must*, *should*) as **moral obligations**, even when humans do not.  
 We call this **Deontological Keyword Bias (DKB)** and propose a **reasoning-based few-shot method** to reduce it.
 
-<img src="https://d2acbkrrljl37x.cloudfront.net/research/publication/acl2025_exp2.jpeg" width="90%" height="auto" class="styled-image"/>
+<img src="assets/image.png" width="90%" height="auto" class="styled-image"/>
 
 ## 📁 Repository Structure
 ```
