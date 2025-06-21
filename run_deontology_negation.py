@@ -70,8 +70,6 @@ def query_model_batch(contexts, inputs, max_new_tokens):
         results_raw.append(output_text.replace(",", "__").replace("\n", "___"))
     return results, results_raw
 
-
-# ✅ 평가 함수 (미니배치 적용)
 def evaluate_dataset(dataloader, output_path, max_new_tokens):
     full_path = output_path
     results = []
