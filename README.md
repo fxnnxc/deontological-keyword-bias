@@ -9,7 +9,7 @@
 
 **Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models**
 
-[**🌐 Project Page**](https://bumjini.github.io/articles/acl2025_deontology/) | [**📄 Paper**](https://arxiv.org/abs/2506.11068) |
+| [**🌐 Project Page**](https://bumjini.github.io/articles/acl2025_deontology/) | [**📄 Paper**](https://arxiv.org/abs/2506.11068) |
 
 </div>
 
