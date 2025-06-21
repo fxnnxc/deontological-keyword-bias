@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![ACL 2025](https://img.shields.io/badge/ACL-2025-blue?style=for-the-badge&logo=academia)](https://2025.aclweb.org/)
-[![Project](https://img.shields.io/badge/Project-Deontological%20Keyword%20Bias-blueviolet?style=for-the-badge&logo=github)](https://bumjini.github.io/articles/acl2025_deontology)
-[![Paper](https://img.shields.io/badge/Paper-ArXiv-orange?style=for-the-badge&logo=arxiv)](https://arxiv.org/abs/2506.11068)
+[![ACL 2025](https://img.shields.io/badge/ACL-2025-red?style=for-the-badge&logo=academia)](https://2025.aclweb.org/)
+[![Project](https://img.shields.io/badge/Project-Deontological%20Keyword%20Bias-darkred?style=for-the-badge&logo=github)](https://bumjini.github.io/articles/acl2025_deontology)
+[![Paper](https://img.shields.io/badge/Paper-ArXiv-darkgreen?style=for-the-badge&logo=arxiv)](https://arxiv.org/abs/2506.11068)
 
 
 **Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models**
