@@ -24,12 +24,12 @@ This paper investigates a systematic bias in large language models (LLMs) where 
 - **Solution**: Novel reasoning-based few-shot method to reduce bias
 - **Impact**: Improved alignment between model and human normative judgments
 
----
 
 ## 🔍 TL;DR  
 Large language models (LLMs) systematically interpret sentences with modal expressions (like *must*, *should*) as **moral obligations**, even when humans do not.  
 We call this **Deontological Keyword Bias (DKB)** and propose a **reasoning-based few-shot method** to reduce it.
 
+<img src="https://d2acbkrrljl37x.cloudfront.net/research/publication/acl2025_exp2.jpeg" width="90%" height="auto" class="styled-image"/>
 
 ## 📁 Repository Structure
 ```
@@ -126,21 +126,17 @@ models=(
 | `morality_low.csv` | Low moral ambiguity cases | 451 samples |
 | `*_negation.csv` | Negation variants of main datasets | ~450 samples each |
 
----
 
-## 📋 Experimental Setup
 
-### Baseline Experiments
-- **Deontology**: Evaluate model judgments on deontic sentences
-- **Commonsense**: Control experiments with non-deontic sentences
-- **Negation**: Test robustness with negated sentences
+## 📚 Citation
 
-### Debiasing Methods
-- **Few-shot Learning**: Provide examples to reduce keyword bias
-- **In-context Reasoning**: Use logical reasoning prompts
-- **Prompt Engineering**: Systematic prompt variations
+If you find this work useful, please cite our paper:
 
-### Evaluation Metrics
-- **Alignment**: Agreement between model and human judgments
-- **Keyword Effect**: Difference in judgments with/without modal expressions
-- **Bias Reduction**: Effectiveness of debiasing methods
+```bibtex
+@inproceedings{park2025dkb,
+  title={Deontological Keyword Bias: The Impact of Modal Expressions on Normative Judgments of Language Models},
+  author={Park, Bumjin and Lee, Jinsil and Choi, Jaesik},
+  booktitle={Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
+  year={2025}
+}
+```
